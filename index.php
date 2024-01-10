@@ -19,5 +19,5 @@ $params = [
     'text'    => $user_name
 ];
 file_get_contents('https://api.telegram.org/bot'.$token.'/sendMessage?'.http_build_query($params));
-
+//изменения внесены в текст
 ?>
